@@ -8,8 +8,8 @@ public class Videogame {
     private Category category;
 
     public Videogame(String id, String title) {
-           this.id = id;
-           this.title = title;
+        this.id = id;
+        this.title = title;
     }
 
     public String getId() {
@@ -39,4 +39,5 @@ public class Videogame {
                 ", category=" + category +
                 '}';
     }
+
 }

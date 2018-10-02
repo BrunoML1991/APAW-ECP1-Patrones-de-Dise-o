@@ -27,4 +27,9 @@ public class IconicCharacter {
     public String getRole() {
         return role;
     }
+
+    public List<Review> getReviews() {
+        return reviews;
+    }
+
 }
