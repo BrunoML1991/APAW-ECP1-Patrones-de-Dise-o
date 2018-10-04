@@ -1,3 +1,5 @@
+package solution;
+
 public class FeedBack {
 
     private String id;

@@ -1,3 +1,8 @@
+package entities;
+
+import entities.Category;
+import entities.IconicCharacter;
+
 public class Videogame {
 
     private String id;
