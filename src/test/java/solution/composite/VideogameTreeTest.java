@@ -12,7 +12,7 @@ class VideogameTreeTest {
     VideogameComponent videogameComponent1,videogameComponent2;
 
     @BeforeEach
-    void beforeEache() {
+    void beforeEach() {
         videogame = new Videogame("1", "Final Fantasy");
         videogameComponent1 = new VideogameLeaf(videogame);
         videogameComponent2 = new VideogameComposite("composite");
