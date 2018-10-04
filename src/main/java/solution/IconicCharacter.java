@@ -9,6 +9,11 @@ public class IconicCharacter {
     private String role;
     private List<Review> reviews;
 
+    public IconicCharacter (String id,String name){
+        this.id = id;
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "IconicCharacter{" +
@@ -32,6 +37,10 @@ public class IconicCharacter {
 
     public List<Review> getReviews() {
         return reviews;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 
 }
