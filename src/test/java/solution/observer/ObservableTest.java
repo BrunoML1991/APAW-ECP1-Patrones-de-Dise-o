@@ -49,7 +49,7 @@ public class ObservableTest {
     }
 
     @AfterEach
-    void afterEach (){
+    void afterEach() {
         iconicCharacterFactory.remove("1");
         iconicCharacterFactory.remove("2");
     }
