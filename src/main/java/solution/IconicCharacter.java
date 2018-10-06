@@ -9,7 +9,7 @@ public class IconicCharacter {
     private String role;
     private List<Review> reviews;
 
-    public IconicCharacter (String id,String name){
+    public IconicCharacter(String id, String name) {
         this.id = id;
         this.name = name;
     }

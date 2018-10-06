@@ -4,7 +4,7 @@ public abstract class VideogameComponent {
 
     protected String name;
 
-    public VideogameComponent (String name){
+    public VideogameComponent(String name) {
         this.name = name;
     }
 

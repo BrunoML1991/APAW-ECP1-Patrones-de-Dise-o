@@ -4,12 +4,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import solution.Videogame;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class VideogameTreeTest {
 
     Videogame videogame;
-    VideogameComponent videogameComponent1,videogameComponent2;
+    VideogameComponent videogameComponent1, videogameComponent2;
 
     @BeforeEach
     void beforeEach() {
@@ -20,12 +20,12 @@ class VideogameTreeTest {
 
     @Test
     void testViewLeaf() {
-        assertEquals("1",videogameComponent1.view());
+        assertEquals("1", videogameComponent1.view());
     }
 
     @Test
     void testViewComposite() {
-        assertEquals("composite",videogameComponent2.view());
+        assertEquals("composite", videogameComponent2.view());
     }
 
 }
