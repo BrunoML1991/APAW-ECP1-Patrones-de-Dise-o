@@ -1,6 +1,7 @@
 package solution;
 
 import solution.observer.Observable;
+
 import java.util.HashMap;
 import java.util.Map;
 
